@@ -7,19 +7,32 @@ h1, h2, h3, h4 {
   font-family: sans-serif;
 }
 
-h2.item-name {
-  font-weight: 600;
-}
-
-h3.price {
-  font-weight: 300;
-}
 
 header {
     box-sizing: content-box;
     background: #f8f9fa!important;
     border-bottom: solid #888 .1rem;
 }
+
+footer {
+  padding-top: 1rem;
+  text-align: center;
+  border-top: solid #888 .1rem;
+  margin-top: 2rem;
+}
+
+a {
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: serif;
+}
+
 
 .container {
   background: white;
@@ -29,6 +42,62 @@ header {
 
 .row {
   padding-top: 1rem;
+}
+
+
+/**************
+ * About Page *
+ **************/
+
+ h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row.story, .row.team-members {
+    text-align: justify;
+    border-bottom: solid #888 .1rem;
+}
+
+.row.story {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.member-wrapper, .bf-col {
+    padding: 1rem 2rem;
+}
+
+.member-wrapper {
+    padding-top: 0;
+}
+
+.row.best-friend {
+    max-width: 33.333%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.member-wrapper img, .bf-col img {
+    border-radius: 100%;
+}
+
+/********
+ * Shop *
+ ********/
+
+h2.item-name {
+  font-weight: 600;
+}
+
+h3.price {
+  font-weight: 300;
 }
 
 .row.sale-item {
@@ -55,14 +124,6 @@ button:active {
   background: #777;
 }
 
-img {
-  width: 100%;
-}
-
-p {
-  font-family: serif;
-}
-
 .content-new-item {
   border: solid #888 .1rem;
   padding: .5rem .5rem .2rem .5rem;
@@ -75,15 +136,4 @@ p {
 
 .other-item-price {
   text-align: center;
-}
-
-footer {
-  padding-top: 1rem;
-  text-align: center;
-  border-top: solid #888 .1rem;
-  margin-top: 2rem;
-}
-
-a {
-  color: black;
 }
