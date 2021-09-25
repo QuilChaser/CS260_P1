@@ -8,7 +8,7 @@ body {
 }
 
 button {
-  background: #ccc;
+  background: #aaa;
   color: white;
   border-style: none;
   border-radius: 2em;
@@ -16,7 +16,7 @@ button {
 }
 
 button:active {
-  background: #aaa;
+  background: #999;
 }
 
 img {
