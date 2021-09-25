@@ -18,7 +18,7 @@ h3.price {
 header {
     box-sizing: content-box;
     background: #f8f9fa!important;
-    border-bottom: solid #aaa .1rem;
+    border-bottom: solid #888 .1rem;
 }
 
 .container {
@@ -34,7 +34,7 @@ header {
 .row.sale-item {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    border-bottom: solid #eee .2rem;
+    border-bottom: solid #888 .2rem;
 }
 
 button {
@@ -51,7 +51,7 @@ button:hover {
 }
 
 button:active {
-  background: #999;
+  background: #888;
 }
 
 img {
@@ -63,7 +63,7 @@ p {
 }
 
 .content-new-item {
-  border: solid #eee .1rem;
+  border: solid #888 .1rem;
   padding: .5rem .5rem .2rem .5rem;
 }
 
