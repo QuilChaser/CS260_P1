@@ -21,15 +21,6 @@ header {
     border-bottom: solid #aaa .1rem;
 }
 
-.other-item {
-  text-align: center;
-  padding-top: 1rem;
-}
-
-.other-item-price {
-  text-align: center;
-}
-
 .container {
   background: white;
   padding-left: 0;
@@ -42,16 +33,9 @@ header {
 
 .row.sale-item {
     padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: solid #eee .2rem;
 }
-
-img {
-  width: 100%;
-}
-
-p {
-  font-family: serif;
-}
-
 
 button {
   background: #aaa;
@@ -68,6 +52,28 @@ button:hover {
 
 button:active {
   background: #999;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: serif;
+}
+
+.content-new-item {
+  border: solid #eee .1rem;
+  padding: .5rem .5rem .2rem .5rem;
+}
+
+.other-item {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.other-item-price {
+  text-align: center;
 }
 
 footer {
