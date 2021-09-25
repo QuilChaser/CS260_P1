@@ -3,8 +3,16 @@ body {
   font-family: serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3.price {
+  font-weight: 300;
 }
 
 header {
