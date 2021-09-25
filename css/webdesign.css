@@ -12,7 +12,7 @@ button {
   color: white;
   border-style: none;
   border-radius: 2em;
-  padding: 2em 1em;
+  padding: .5em 1em;
 }
 
 button:active {
@@ -21,6 +21,10 @@ button:active {
 
 img {
   width: 100%;
+}
+
+p {
+  font-style: serif;
 }
 
 footer {
