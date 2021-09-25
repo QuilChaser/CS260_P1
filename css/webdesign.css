@@ -3,14 +3,28 @@ body {
   font-family: serif;
 }
 
-.container {
-  background: white;
-  padding: 1em 2em;
-}
-
 h1, h2, h3 {
   font-family: sans-serif;
 }
+
+header {
+    box-sizing: content-box;
+    background: #f8f9fa!important;
+    border-bottom: solid #aaa .1rem;
+}
+
+.container {
+  background: white;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: serif;
+}
+
 
 button {
   background: #aaa;
@@ -27,14 +41,6 @@ button:hover {
 
 button:active {
   background: #999;
-}
-
-img {
-  width: 100%;
-}
-
-p {
-  font-family: serif;
 }
 
 footer {
