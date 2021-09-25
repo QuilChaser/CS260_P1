@@ -1,10 +1,15 @@
 body {
   background: white;
+  font-family: serif;
 }
 
 .container {
   background: white;
   padding: 1em 2em;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
 }
 
 button {
@@ -13,6 +18,11 @@ button {
   border-style: none;
   border-radius: 2em;
   padding: .5em 1em;
+  font-family: sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 button:active {
@@ -24,7 +34,7 @@ img {
 }
 
 p {
-  font-style: serif;
+  font-family: serif;
 }
 
 footer {
