@@ -48,10 +48,11 @@ button {
 
 button:hover {
   cursor: pointer;
+  background: #888;
 }
 
 button:active {
-  background: #888;
+  background: #777;
 }
 
 img {
