@@ -209,3 +209,53 @@ button:active {
 .item-sum .col-md {
     margin-bottom: 0;
 }
+
+.remove:hover {
+    color: red;
+}
+
+.remove {
+    text-decoration: underline;
+}
+
+.sum-title {
+    padding-top: 1rem;
+}
+
+.buy {
+    color: white;
+    border-radius: 2rem;
+    background: #77f;
+    padding: .75rem 1.5rem;
+    font-size: 1.1rem;
+    display: block;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+.buy:hover {
+    color: white;
+    text-decoration: none;
+    background: #55f;
+}
+
+.buy:active {
+    background: #44f;
+}
+
+.item-sum {
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    border-top: solid .1rem #888;
+}
+
+.item-sum:last-of-type {
+    border-bottom: solid .1rem #888;
+}
+
+.total {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
