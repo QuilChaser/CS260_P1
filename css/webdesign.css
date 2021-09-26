@@ -84,6 +84,12 @@ p {
      font-size: 4rem
  }
 
+ .content-new-item a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
 /**************
  * About Page *
  **************/
