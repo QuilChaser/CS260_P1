@@ -196,3 +196,16 @@ button:active {
 .cart-item-price {
     margin-bottom: .5rem;
 }
+
+.row.item-sum > ul {
+    list-style-type: none;
+}
+
+.sum-name {
+    list-style-type: disclosure-closed;
+    font-weight: 600;
+}
+
+.item-sum .col-md {
+    margin-bottom: 0;
+}
