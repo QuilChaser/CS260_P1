@@ -117,12 +117,6 @@ p {
     padding-top: 0;
 }
 
-.row.best-friend {
-    max-width: 33.333%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .name {
     text-align: center;
     padding-top: 1rem;
@@ -131,6 +125,17 @@ p {
 
 .member-wrapper img {
     border-radius: 100%;
+}
+
+@media only screen (min-width: 768px) {
+  .row.best-friend {
+    max-width: 33.333%;
+  }
+}
+
+.row.best-friend {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /********
