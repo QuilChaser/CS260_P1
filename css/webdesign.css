@@ -19,6 +19,8 @@ footer {
   text-align: center;
   border-top: solid #888 .1rem;
   margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 a {
@@ -183,7 +185,6 @@ button:active {
     border: solid #888 .1rem;
   }
 }
-
 
 .other-item {
   text-align: center;
