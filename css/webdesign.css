@@ -265,3 +265,31 @@ button:active {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+/******************
+ * Thank You Page *
+ ******************/
+
+ .legal-text {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.back-home {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #77f;
+}
+
+.back-home:hover {
+    color: #55f;
+    text-decoration: underline;
+}
+
+footer a {
+    color: #77f;
+}
