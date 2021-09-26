@@ -44,6 +44,44 @@ p {
   padding-top: 1rem;
 }
 
+/*************
+ * Home Page *
+ *************/
+ 
+ .content-new-item:hover {
+     transition: background .2s;
+     background: #ccc;
+ }
+
+ .row.buy-item-header h2 {
+     text-align: center;
+ }
+
+ .buy-item-header h2.col-md {
+     text-align: center;
+     padding-top: 1rem;
+ }
+
+ .h-item-name {
+     text-align: center;
+     padding-top: 1rem;
+     text-decoration: underline;
+     font-size: 1.1rem;
+ }
+
+ .h-item-price {
+     text-align: center;
+ }
+
+ .row.about-h-content {
+     border-bottom: solid #888 .1rem;
+ }
+
+ .welcome {
+     margin-top: auto;
+     margin-bottom: auto;
+     font-size: 4rem
+ }
 
 /**************
  * About Page *
