@@ -127,7 +127,7 @@ p {
     border-radius: 100%;
 }
 
-@media only screen (min-width: 768px) {
+@media (max-width: 768px) {
   .row.best-friend {
     max-width: 33.333%;
   }
