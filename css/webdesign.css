@@ -176,3 +176,23 @@ button:active {
 .other-item-price {
   text-align: center;
 }
+
+/********
+ * Cart *
+ ********/
+ .row.item {
+    border-bottom: solid white 1rem;
+    border-right:solid white 2rem;
+    padding-bottom: 1rem;
+    background: #eee;
+}
+
+
+.cart-item-name {
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.cart-item-price {
+    margin-bottom: .5rem;
+}
