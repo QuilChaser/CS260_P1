@@ -47,7 +47,7 @@ p {
 /*************
  * Home Page *
  *************/
- 
+
  .content-new-item:hover {
      transition: background .2s;
      background: #ccc;
@@ -75,6 +75,7 @@ p {
 
  .row.about-h-content {
      border-bottom: solid #888 .1rem;
+     text-align: justify;
  }
 
  .welcome {
